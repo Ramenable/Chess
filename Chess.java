@@ -12,7 +12,7 @@ public class Chess extends Application {
         primaryStage.setMinHeight(600);
         primaryStage.setWidth(800);
         primaryStage.setHeight(600);
-        primaryStage.setTitle("Chess");
+        primaryStage.setTitle("lil");
         primaryStage.show();
     }
 
