@@ -15,5 +15,8 @@ public abstract class Piece {
     public abstract Set<Tile> combinations();
 
     // actually move from combinations
-    public abstract void move();
+    public void move() {
+        Set<Tile> set = combinations();
+        
+    }
 }

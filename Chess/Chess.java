@@ -11,6 +11,7 @@ import javafx.stage.Stage;
 
 public class Chess extends Application {
     private Stage stage;
+    private GridPane board = new GridPane();
 
     @Override
     public void start(Stage primaryStage) {
