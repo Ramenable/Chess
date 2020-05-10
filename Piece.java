@@ -12,7 +12,7 @@ public abstract class Piece {
     }
 
     // show combinations of movements
-    public abstract Set<Tile> combinations();
+    public abstract Set<Tile> combinations(Board board);
 
     // actually move from combinations
     public void move() {

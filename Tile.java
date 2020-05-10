@@ -4,7 +4,7 @@ public class Tile {
     protected int x;
     protected int y;
     protected Color color;
-    protected boolean occupied;
+    protected Piece piece;
 
     public Tile(int a, int b) {
         x = a;
@@ -14,7 +14,7 @@ public class Tile {
         } else {
             color = Color.BLACK;
         }
-        occupied = false;
+        piece = null;
     }
 
     public void setColor(Color col) {
